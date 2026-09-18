@@ -1,7 +1,6 @@
 HandROI Note Digitizer
 
 An intelligent desktop web application that leverages real-time Computer Vision (CV) to detect human hand gestures (index finger pointing or two-hand framing), dynamically crops a Region of Interest (ROI) over physical documents, books, or screens, enhances image legibility through a custom preprocessing pipeline, and digitizes the text using deep neural network OCR with SQLite database persistence.
-
 ---
 
 Key Features
