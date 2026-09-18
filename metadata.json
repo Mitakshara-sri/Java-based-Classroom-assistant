@@ -1,0 +1,10 @@
+{
+  "name": "HandROI Note Digitizer",
+  "description": "Real-time hand detection and ROI selection for automatic image capture, OCR text digitization, PDF/text export, and SQLite database storage.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
