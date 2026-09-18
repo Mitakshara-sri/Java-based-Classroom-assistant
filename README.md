@@ -1,10 +1,10 @@
-# HandROI Note Digitizer
+HandROI Note Digitizer
 
 An intelligent desktop web application that leverages real-time Computer Vision (CV) to detect human hand gestures (index finger pointing or two-hand framing), dynamically crops a Region of Interest (ROI) over physical documents, books, or screens, enhances image legibility through a custom preprocessing pipeline, and digitizes the text using deep neural network OCR with SQLite database persistence.
 
 ---
 
-## 🌟 Key Features
+Key Features
 
 1. **Real-Time Hand Gesture ROI Detection**
    - **Pointing Mode (`isIndexPointing`)**: Tracks 21 hand landmarks and calculates Euclidean distances from the wrist to verify true index finger extension and prominence over curled fingers.
@@ -35,7 +35,7 @@ An intelligent desktop web application that leverages real-time Computer Vision 
 
 ---
 
-## 🛠️ Tech Stack
+Tech Stack
 
 - **Frontend & UI:** React 19, TypeScript, Tailwind CSS, Lucide Icons
 - **Computer Vision:** MediaPipe HandLandmarker, HTML5 Canvas 2D Image Processing
@@ -45,13 +45,13 @@ An intelligent desktop web application that leverages real-time Computer Vision 
 
 ---
 
-## 🚀 Getting Started
+Getting Started
 
-### Prerequisites
+ Prerequisites
 - Node.js (v18.0.0 or higher)
 - npm or yarn
 
-### Installation
+ Installation
 
 ```bash
 # Clone the repository
@@ -65,7 +65,7 @@ npm install
 npm run dev
 ```
 
-### Building for Production
+ Building for Production
 
 ```bash
 npm run build
@@ -73,7 +73,7 @@ npm run build
 
 ---
 
-## 📖 How It Works
+How It Works
 
 1. **Start the Camera:** Grant camera permissions to start the 1080p video feed.
 2. **Select Region of Interest:** Point your index finger at a line of text, or drag your mouse across any document.
