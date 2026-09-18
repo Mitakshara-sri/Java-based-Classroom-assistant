@@ -1,3 +1,12 @@
+/**
+ * Computer Vision Hand & ROI Engine
+ * Author: Mitakshara
+ * 
+ * Handles real-time video stream processing, MediaPipe landmark tracking,
+ * pointing gesture geometric verification, OpenCV skin contour segmentation,
+ * and high-resolution ROI frame extraction.
+ */
+
 import { FilesetResolver, HandLandmarker } from '@mediapipe/tasks-vision';
 import { CurrentROI, DetectedHand, DetectionMode, HandRoiSettings, LandmarkPoint } from '../types';
 

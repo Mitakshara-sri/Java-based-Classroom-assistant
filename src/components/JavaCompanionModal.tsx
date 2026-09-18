@@ -58,10 +58,10 @@ export const JavaCompanionModal: React.FC<JavaCompanionModalProps> = ({ onClose 
             <div>
               <div className="flex items-center space-x-2">
                 <h2 className="text-base font-bold text-white tracking-tight">
-                  Java 17+ Desktop Architecture &amp; Source Files
+                  Java 17+ Architecture &amp; Source Files
                 </h2>
                 <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-cyan-950 text-cyan-300 border border-cyan-800">
-                  OpenCV • Tess4J • JavaFX • SQLite JDBC
+                  By Mitakshara • OpenCV • Tess4J • SQLite JDBC
                 </span>
               </div>
               <p className="text-xs text-slate-400">

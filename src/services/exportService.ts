@@ -1,3 +1,8 @@
+/**
+ * PDF & Text Export Service
+ * Author: Mitakshara
+ */
+
 import { jsPDF } from 'jspdf';
 import { Note } from '../types';
 

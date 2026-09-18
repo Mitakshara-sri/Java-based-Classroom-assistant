@@ -1,3 +1,8 @@
+/**
+ * SQLite & Local Storage Notes Database Service
+ * Author: Mitakshara
+ */
+
 import { Note, SqlQueryResult } from '../types';
 
 const DB_KEY = 'handroi_notes_db_v1';

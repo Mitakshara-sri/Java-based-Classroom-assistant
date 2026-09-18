@@ -1,3 +1,12 @@
+/**
+ * Optical Character Recognition & Preprocessing Service
+ * Author: Mitakshara
+ * 
+ * Multi-stage image enhancement pipeline featuring super-resolution scaling,
+ * background illumination flattening, Laplacian sharpening, Sauvola/Otsu binarization,
+ * projection profile auto-deskewing, and Tesseract neural network recognition.
+ */
+
 import { createWorker, Worker } from 'tesseract.js';
 import { OcrResult } from '../types';
 import { TextRefiner, OcrPresetMode } from './textRefiner';

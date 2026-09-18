@@ -33,9 +33,12 @@ export const Navbar: React.FC<NavbarProps> = ({
               <h1 className="font-bold text-lg tracking-tight text-white flex items-center gap-1.5">
                 HandROI <span className="text-cyan-400 font-mono text-sm px-1.5 py-0.5 rounded bg-cyan-950/60 border border-cyan-800/60">CV+OCR</span>
               </h1>
+              <span className="hidden sm:inline-block text-[11px] px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 border border-slate-700 font-mono">
+                by Mitakshara
+              </span>
             </div>
             <p className="text-xs text-slate-400 hidden sm:block">
-              OpenCV Hand Detection • Tess4J OCR • SQLite JDBC Architecture
+              Real-time CV Gesture Scanner • Adaptive OCR • SQLite DB
             </p>
           </div>
         </div>

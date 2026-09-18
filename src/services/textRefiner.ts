@@ -1,5 +1,7 @@
 /**
  * Advanced Text Refiner & OCR Post-Processing Engine
+ * Author: Mitakshara
+ * 
  * Corrects common OCR optical distortions, symbol misrecognitions, broken lines,
  * and sensor noise artifacts to yield clean, digitized text.
  */

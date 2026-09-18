@@ -27,6 +27,17 @@ export const JAVA_PROJECT_FILES: JavaSourceFile[] = [
     <name>HandROI Note Digitizer</name>
     <description>Real-time Hand Detection ROI Capture and Tess4J OCR Notes System</description>
 
+    <developers>
+        <developer>
+            <id>mitakshara</id>
+            <name>Mitakshara</name>
+            <email>s.mitakshara14@gmail.com</email>
+            <roles>
+                <role>Lead Developer</role>
+            </roles>
+        </developer>
+    </developers>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
@@ -115,6 +126,10 @@ import java.awt.Rectangle;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Real-time hand contour and ROI tracking using OpenCV / JavaCV
+ * @author Mitakshara
+ */
 public class HandDetector {
     private final Scalar lowerSkinYCrCb = new Scalar(0, 133, 77, 0);
     private final Scalar upperSkinYCrCb = new Scalar(255, 173, 127, 0);
@@ -244,6 +259,10 @@ import java.awt.image.BufferedImage;
 import java.awt.image.RescaleOp;
 import java.awt.Graphics2D;
 
+/**
+ * Tess4J OCR image preprocessing and text extraction engine
+ * @author Mitakshara
+ */
 public class OcrService {
     private final ITesseract tesseract;
 
@@ -296,6 +315,10 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * SQLite JDBC connection pool and note persistence manager
+ * @author Mitakshara
+ */
 public class DatabaseManager {
     private static final String DB_URL = "jdbc:sqlite:notes.db";
 
@@ -388,6 +411,10 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * JavaFX GUI application orchestrating OpenCV capture, Tess4J OCR, and SQLite persistence
+ * @author Mitakshara
+ */
 public class MainApp extends Application {
     private final HandDetector handDetector = new HandDetector();
     private final OcrService ocrService = new OcrService();
